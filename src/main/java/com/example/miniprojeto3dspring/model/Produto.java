@@ -112,7 +112,4 @@ private String categoria;
 private String destaque;
 private String statusProd;
 
-// Gerar os Getters and Setters
-// Source / Generate Getters and Setters... 
-// Select All / Generate
 }
