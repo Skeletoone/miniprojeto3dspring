@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="Z:\LIP3\workspace3Dhd"/>
 			<item value="Z:\LIP3\workspace3Dhd\Repo3D\miniprojeto3dspring"/>
 		</list>
 		<list key="projectNameTemplate">
