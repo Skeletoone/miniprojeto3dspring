@@ -1,4 +1,4 @@
-package com.example.miniprojeto3dspring;
+package br.itb.informatica.miniprojeto3dspring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

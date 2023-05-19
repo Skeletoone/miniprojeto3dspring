@@ -1,9 +1,11 @@
-package com.example.miniprojeto3dspring.model;
+package br.itb.informatica.miniprojeto3dspring.model;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-@Repository
-public interface ProdutoRepository extends JpaRepository<Produto, Long> {
-
+	@Repository
+	public interface ProdutoRepository
+		extends JpaRepository<Produto, Long>
+	{
+	
 }
