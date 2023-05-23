@@ -1,4 +1,4 @@
-package br.itb.informatica.miniprojeto3dspring.model;
+package com.example.miniprojeto3dspring.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
