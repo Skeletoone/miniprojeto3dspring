@@ -22,7 +22,8 @@ public class ProdutoService {
 	}
 	
 	// Método de inserção de dados
-	// Rota POST
+	// INSERT INTO PRODUTO VALUES (?,?)
+	// recebe um produto (sem id) e devolve/coloca no banco(com id)
 	@Transactional
 	public Produto save (Produto produto) {
 		return produtoRepository.save(produto);
@@ -30,7 +31,7 @@ public class ProdutoService {
 	}
 	
 	// Método de pesquisa de dados
-	// Rota GET select * from produto
+	// select * from produto
 	public List<Produto> findAll() {
 		List<Produto> listaProdutos = produtoRepository.findAll();
 		return listaProdutos;
