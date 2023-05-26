@@ -39,7 +39,8 @@ CREATE TABLE Produto
 	PRIMARY KEY (id),
 )
 GO
-INSERT Produto (nome, descricao, codigoBarras, foto, preco, tipoProd_id, statusProd) 
+INSERT Produto (nome, descricao, codigoBarras, foto,
+				preco, categoria, destaque, statusProd) 
 VALUES ('Garrafa de Água Mineral de 510ml - Boa-água ', 'Garrafa de água mineral de 510ml',
 		'7899001234', NULL, 2.00, 'Bebida',	'promoção' , 'ATIVO')
 
